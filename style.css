@@ -9,3 +9,7 @@
 --titulo: "Noto Sans", sans-serif;
 --texto:  "Bebas Neue", sans-serif;
  }
+body{
+    background-color: var(--verde-preto);
+    font-family: var(--texto);
+}
