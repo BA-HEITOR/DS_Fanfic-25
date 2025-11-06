@@ -12,4 +12,37 @@
 body{
     background-color: var(--verde-preto);
     font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+button{
+    font-family: var(--titulo);
+    background-color: var(--bege);
+    color: var(--Amarelo-terra);
+    border: 2px solid var(--azul);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: var(--Amarelo-terra);
+    color: var(--azul);
+    transition: 0.5s;
+}
+.passo{
+    font-size: 24px;
+    display: none;
+}
+.passo ativo{
+    display: block;
 }
